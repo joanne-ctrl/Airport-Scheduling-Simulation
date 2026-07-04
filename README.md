@@ -3,9 +3,10 @@
 A multithreaded simulation system using POSIX threads.
 
 ## Features
-- Thread-based aircraft simulation
-- Semaphore & mutex synchronization
-- Round-robin scheduling algorithm
-
+- Multithreaded aircraft simulation using POSIX threads (pthreads)
+- Synchronization using mutex locks and semaphores
+- Round-robin scheduling for fair gate assignment
+- Shared resource management for runway and gate control
+  
 ## Tech
 C++# Airport-Scheduling-Simulation
